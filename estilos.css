@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: aqua;
+}
+
+#encabezado{
+    background-color: rgb(73, 72, 72);
+}
+
+#encabezado ul {
+    border: 3px solid blue;
+    text-align: center;
+    padding: 20px 0px;
+}
+#encabezado ul li{
+    color: white;
+    font-size:  25px;
+    display: inline;
+   /** border: 1px solid white;*/
+}
+#encabezado #li-centro{
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+
+#encabezado #li-google a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#informacion{
+    border: 10px solid black;
+    text-align: center;
+}
+
+#infomacion #imagen-alumnos{
+    width: 500px;
+}
+
+#informacion p{
+    margin-top: 20px;
+    font-size: 25px;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: justify ;
+    text-indent: 25px;
+}
+
+footer{
+  /**  border: 1px solid red;*/
+    background-color: rgb(73, 72, 72);
+    padding: 25px;
+}
+footer ul li{
+    display: inline;
+}
+footer img{
+    width: 50px;
+}
+footer ul{
+    text-align: center;
+}
